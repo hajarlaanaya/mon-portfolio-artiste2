@@ -13,7 +13,7 @@ const artworks = [
     title: "Nature Morte aux Raisins",
     medium: "Acrylique Monochromatique",
     description: "Une exploration des textures et de la lumière à travers un sujet classique.",
-    image: "/public/images/Nature Morte aux Raisins.jpeg",
+    image: "/images/Nature Morte aux Raisins.jpeg",
     colSpan: "col-span-12 md:col-span-7",
     aspect: "aspect-[4/3]",
     index: "01 / 10"
@@ -23,7 +23,7 @@ const artworks = [
     title: "L'Icône Pop",
     medium: "Encre & Pochoir",
     description: "Travail sur le contraste pur et l'impact visuel du bleu électrique.",
-    image: "/public/images/Icône Pop.jpeg",
+    image: "/images/Icône Pop.jpeg",
     colSpan: "col-span-12 md:col-span-5",
     aspect: "aspect-[3/4]",
     index: "02 / 10",
@@ -34,7 +34,7 @@ const artworks = [
     title: "Vent de Plaine",
     medium: "Encre sur Papier",
     description: "Capture du mouvement et de l'éphémère à travers des traits rapides.",
-    image: "/public/images/Vent de Plaine.jpeg",
+    image: "/images/Vent de Plaine.jpeg",
     colSpan: "col-span-12 md:col-span-6",
     aspect: "aspect-square",
     index: "03 / 10"
@@ -44,7 +44,7 @@ const artworks = [
     title: "Pâturages d'Altitude",
     medium: "Acrylique sur Toile",
     description: "Sérénité d'un paysage pastoral entre ciel et terre.",
-    image: "/public/images/Pâturages d'Altitude.jpeg",
+    image: "/images/Pâturages d'Altitude.jpeg",
     colSpan: "col-span-12 md:col-span-6",
     aspect: "aspect-[4/5]",
     index: "04 / 10",
@@ -55,7 +55,7 @@ const artworks = [
     title: "Symphonie Visuelle",
     medium: "Collage Multimédia",
     description: "Une fusion de textures et de rythmes musicaux.",
-    image: "/public/images/Symphonie Visuelle.jpeg",
+    image: "/images/Symphonie Visuelle.jpeg",
     colSpan: "col-span-12 md:col-span-8",
     aspect: "aspect-[16/9]",
     index: "05 / 10"
@@ -65,7 +65,7 @@ const artworks = [
     title: "Le Regard de l'Âme",
     medium: "Acrylique",
     description: "Force et profondeur d'un portrait masculin.",
-    image: "/public/images/Le Regard de l'Âme.jpeg",
+    image: "/images/Le Regard de l'Âme.jpeg",
     colSpan: "col-span-12 md:col-span-4",
     aspect: "aspect-[3/4]",
     index: "06 / 10",
@@ -76,7 +76,7 @@ const artworks = [
     title: "L'Élégante au Chapeau Rouge",
     medium: "Technique Mixte",
     description: "Style graphique et lettrages urbains.",
-    image: "/public/images/L'Élégante au Chapeau Rouge.jpeg",
+    image: "/images/L'Élégante au Chapeau Rouge.jpeg",
     colSpan: "col-span-12 md:col-span-5",
     aspect: "aspect-[3/4]",
     index: "07 / 10"
@@ -86,7 +86,7 @@ const artworks = [
     title: "Introspection",
     medium: "Acrylique",
     description: "Jeu d'ombres et de lumières sur le visage.",
-    image: "/public/images/Introspection.jpeg",
+    image: "/images/Introspection.jpeg",
     colSpan: "col-span-12 md:col-span-7",
     aspect: "aspect-[3/4]",
     index: "08 / 10",
@@ -97,7 +97,7 @@ const artworks = [
     title: "Prisme de Couleurs",
     medium: "Crayons & Technique Mixte",
     description: "Décomposition spectrale d'un visage contemporain.",
-    image: "/public/images/Prisme de Couleurs.jpeg",
+    image: "/images/Prisme de Couleurs.jpeg",
     colSpan: "col-span-12 md:col-span-6",
     aspect: "aspect-[3/4]",
     index: "09 / 10"
@@ -107,7 +107,7 @@ const artworks = [
     title: "Abstrakt Typo",
     medium: "Mixed Media Collage",
     description: "Exploration de la forme et du signe.",
-    image: "/public/images/Abstrakt Typo.jpeg",
+    image: "/images/Abstrakt Typo.jpeg",
     colSpan: "col-span-12 md:col-span-6",
     aspect: "aspect-[4/5]",
     index: "10 / 10",
@@ -176,7 +176,7 @@ export default function App() {
           
           {/* BOUTON CV EN HAUT */}
           <a 
-            href="/public/IT Manager CV Resume (2).pdf" 
+            href="/IT Manager CV Resume (2).pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-6 py-2 border border-royal text-royal text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-royal hover:text-white transition-all duration-300 rounded-sm"
@@ -206,7 +206,7 @@ export default function App() {
       {/* BOUTON CV EN BAS */}
       <div className="max-w-7xl mx-auto mt-24 mb-12 flex justify-center">
         <a 
-          href="/public/IT Manager CV Resume (2).pdf" 
+          href="/IT Manager CV Resume (2).pdf" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group flex items-center gap-4 px-12 py-4 bg-black text-white text-xs uppercase tracking-[0.3em] hover:bg-royal transition-all duration-500 rounded-sm shadow-xl"
