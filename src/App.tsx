@@ -265,13 +265,12 @@ function ArtworkCard({ artwork, extraClass = "" }: { artwork: any, extraClass?: 
       className={`art-card ${extraClass}`}
     >
       <div className={`relative ${artwork.aspect} overflow-hidden group mb-3`}>
-        <img 
-          src={artwork.image} 
-          alt={artwork.title}
-          className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute inset-0 bg-royal/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+       <img 
+       src={artwork.image} 
+       alt={artwork.title}
+       className="w-full h-full object-cover transition-all duration-700 ease-in-out group-hover:scale-105 md:filter md:grayscale md:group-hover:grayscale-0"
+       referrerPolicy="no-referrer"
+       />
         <div className="absolute bottom-2 left-2 font-hand text-white text-xl opacity-0 group-hover:opacity-100 transition-opacity drop-shadow-md z-10">
           {artwork.medium}
         </div>
